@@ -1,0 +1,18 @@
+name: Google Tag Manager
+description: Configure Google Tag Manager.
+type: atom
+icon: fa-area-chart
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable Tag Manager particles.
+      default: true
+
+    gtm.code:
+      type: input.text
+      description: Enter the Google Container ID for Tags (GMT-XXXXXXX)
+      label: GTM Code
+      placeholder: GTM-XXXXXXX
